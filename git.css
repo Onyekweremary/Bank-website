@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding: 10px;
+}
+li a{
+    color: black;
+}
+  nav ul :first-child{
+margin-right: 6rem;
+}
+.dropdowm-content {
+    position: absolute;
+    top: 2%;
+    left: 56%;
+}
+.dropdowm-content a{
+    display: block;
+}
+ .dropdowm-content:hover {
+opacity: 0.5;
+display: none;
+}
+.dropdowm-content a{
+    text-underline-position: below;
+}
